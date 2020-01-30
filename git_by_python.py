@@ -10,9 +10,9 @@ def my_cmd(my_cmd_str):
 if __name__ == '__main__':
     my_r = my_cmd(r'D:')
     print(my_r)
-    my_r = my_cmd(r'cd D:\myPython\20200130_git_by_python')
+    my_r = my_cmd(r'cd D:\dxp\github\2020\github_page')
     print(my_r)
-    my_r = my_cmd(r'git status')
+    my_r = my_cmd(r'git init')
     print(my_r)
     print('now git add .')
     my_r = my_cmd(r'git add .')
@@ -23,7 +23,7 @@ if __name__ == '__main__':
     print(my_r)
 
     print('now remote')
-    my_cmd(r'git remote add origin git@github.com:dxp432/git_by_python.git')
+    my_cmd(r'git remote add origin https://github.com/dxp4321/dxp4321.github.io.git')
     print(my_r)
 
     print('now git push')
