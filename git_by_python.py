@@ -2,8 +2,8 @@ import os
 import time
 
 
-def my_cmd(my_cmd):
-    res = os.popen(my_cmd)
+def my_cmd(my_cmd_str):
+    res = os.popen(my_cmd_str)
     return res.read()
 
 
