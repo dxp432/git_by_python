@@ -16,5 +16,5 @@ if __name__ == '__main__':
     print(my_r)
     my_r = my_cmd(r'git commit -m "python commit"')
     print(my_r)
-    # my_r = my_cmd(r'git push -u origin master')
-    # print(my_r)
+    my_r = my_cmd(r'git push -u origin master')
+    print(my_r)
